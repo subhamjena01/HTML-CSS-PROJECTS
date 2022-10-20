@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utility classes */
+.img_responsive{
+    max-width: 100%;
+}
+
+.hero_image{
+    background:url(heroimage.jpg) no-repeat;   
+    height: 100vh; 
+    background-size: cover;
+    position: relative;
+}
+.hero_wrapper{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.hero_wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.form_code button{
+    width: 40%;
+    text-align: center;
+    background-color: #00bab1;
+    padding: 0.6em;
+    margin: 1rem auto 0rem ;
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+
+/* product Section */
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_list_item{
+    margin-top: 3rem;
+    float: left;
+    width: 31%;
+    margin-left: 2rem;
+}
+
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width:700px){
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+    
+}
